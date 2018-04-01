@@ -1,0 +1,40 @@
+{
+  "name": "shri-architecture",
+  "version": "1.0.0",
+  "description": "Задание по архитектуре для ШРИ-2018",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:scripts": "eslint .",
+    "dev": "NODE_ENV='development' webpack",
+    "prod": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorJeG/home-archi.git"
+  },
+  "keywords": [],
+  "author": "georgiy starkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorJeG/home-archi/issues"
+  },
+  "homepage": "https://github.com/JorJeG/home-archi#readme"
+}
