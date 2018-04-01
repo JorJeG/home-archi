@@ -16,5 +16,6 @@ input.addEventListener('keyup', (e) => {
 sendServer.addEventListener('click', () => {
   if (input.value !== '') {
     Actions.sendData(input.value);
+    input.value = '';
   }
 });
